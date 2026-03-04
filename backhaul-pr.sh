@@ -114,7 +114,7 @@ FALLBACK_URL="https://github.com/gitconnect24/tuns/raw/refs/heads/main/backhaul_
 ;;
 arm64|aarch64)
 PRIMARY_URL="https://apps.irancdn.org/backhaul_premium_arm64.tar.gz"
-FALLBACK_URL="https://github.com/gitconnect24/tuns/raw/refs/heads/main/backhaul_premium_amd64.tar.gz"
+FALLBACK_URL="https://github.com/gitconnect24/tuns/raw/refs/heads/main/backhaul_premium_arm64.tar.gz"
 ;;
 *)
 colorize red "Unsupported architecture: $ARCH."
